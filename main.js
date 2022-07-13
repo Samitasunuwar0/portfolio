@@ -52,4 +52,11 @@ const navMenu = document.getElementById('nav-menu'),
         if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
       }
       window.addEventListener('scroll', scrollUp)
+
+      var change = document.getElementById("change");
+      
+      change.oneclick = function(){
+        document.body.classList.toogle(dark-theme);
+      }
+
       

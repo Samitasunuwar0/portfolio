@@ -56,23 +56,24 @@
         
     }
     /* variables dark theme */
-    body.dark-theme{
-        --first-color-second:  hsl(183, 50%, 8%);
+    .dark-theme{
+        --first-color: hsl(183, 100%, 21%);
+        --first-color-second: hsl(183, 100%, 21%);
         --title-color: hsl(183, 8%, 95%);
         --text-color: hsl(183, 8%, 75%);
         --input-color: hsl(183, 29%, 16%);
-        --body-color: hsl(183, 28%, 12%);
-        --container-color: hsl(183, 29%, 16%);
+        --body-color:hsl(180, 3%, 13%);
+        --container-color: hsl(180, 3%, 13%);
     }
     /* button dark/light */
     
-    .change-theme{
+    .change{
         font-size: 1.25rem;
         color: var(--title-color);
         margin-right: var(--mb-1);
         cursor: pointer;
     }
-    .change-theme:hover{
+    .change:hover{
         color: var(--first-color);
     }
     /* base */
@@ -340,8 +341,6 @@
         position: relative;
         display: grid;
         justify-content: center;
-        width:20%;
-        background: #fff;
         margin-top: 60px;
         padding: 10px 20px;
         border-radius: 7px;
