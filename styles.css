@@ -536,7 +536,7 @@
         margin-top: 20px;
         padding: .75rem 1rem .25rem;
     }
-    .ccontact_label{
+    .contact_label{
         font-size: var(--smaller-font-size);
         color: var(--title-color);
     }
